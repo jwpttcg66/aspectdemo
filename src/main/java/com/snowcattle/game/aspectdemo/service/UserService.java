@@ -26,7 +26,7 @@ public class UserService {
 //
 //        LogUtils.get().setLog("添加用户成功，是一个" + user.getAge() + "岁的美少女");
 //
-//        return ResultUtils.success();\
+//        return ResultUtils.success();\]
         System.out.println("打印");
     }
 

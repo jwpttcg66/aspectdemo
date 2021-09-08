@@ -48,5 +48,6 @@ public class LogAspect {
             logger.error("获取日志：" + logStr);
             // 数据库记录操作...
         }
+        System.out.println("记录日志");
     }
 }

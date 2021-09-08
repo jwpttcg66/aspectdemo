@@ -76,8 +76,9 @@ public class AnnotationUtils {
         String value = "";
         if (attr != null) {
             Annotation an = attr.getAnnotation(annoName);
-            if (an != null)
-                value = ((StringMemberValue) an.getMemberValue(fieldName)).getValue();
+            if (an != null) {
+//                value = ((StringMemberValue) an.getMemberValue(fieldName)).getValue();
+            }
         }
         return value;
     }
